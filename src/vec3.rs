@@ -15,6 +15,7 @@ impl Vec3{
 
     }
 
+    // normalize a vector
     pub fn unit_vector(v:Vec3)->Vec3{
         v / v.length()
     }

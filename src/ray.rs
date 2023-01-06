@@ -21,11 +21,10 @@ impl Ray{
         self.b
     }
     
-    // used to move along the point or extend the vector
+    // move the point along the direction with (t) as a scale of the direction 
     pub fn point_at_paramter(self, t:f32)->Vec3{
         self.a + self.b * t
     }
-    
 }
 
 #[cfg(test)]
